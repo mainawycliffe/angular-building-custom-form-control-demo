@@ -1,0 +1,8 @@
+<div fxFlex="100" fxLayout="row" fxLayoutGap="10px" style="padding: 10px">
+  <mat-form-field fxFlex>
+    <input matInput type="text" (change)="addEvent($event)" [(ngModel)]="username" [value]="username" placeholder="Username">
+  </mat-form-field>
+  <mat-form-field fxFlex>
+    <input matInput type="text" (change)="addEvent($event)" [(ngModel)]="emailProvider" [value]="emailProvider" placeholder="Email Provider">
+  </mat-form-field>
+</div>
